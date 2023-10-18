@@ -1,16 +1,6 @@
 import streamlit as st
 import pandas as pd
 import matplotlib.pyplot as plt
-import streamlit_survey as ss
-
-survey = ss.StreamlitSurvey("survey")
-pages = survey.pages(1, on_submit=lambda: st.success("success"))
-
-pages.submit_button = lambda pages: st.button("Soumettre", type="primary", use_container_width=True)
-
-with pages:
-    if pages.current == 0:
-        survey.text_area("test")
 
 # set graph size
 plt.rcParams["figure.figsize"] = (10,5)
