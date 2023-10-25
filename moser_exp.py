@@ -64,8 +64,8 @@ st.write("I was given the opportunity to contribute to Moser's blog. The post ca
 st.write("Influenced by the Hands-On Essentials courses on Snowflake Academy, I created a tutorial on how to use Streamlit with Snowflake. The tasks included downloading a database from Snowflake's marketplace, connecting a GitHub repository to Streamlit and adding charts from queries.")
 st.write("In addition to the blog post, I was also able to participate in a podcast about Streamlit.")
 
-st.markdown("<h3 style='color: #6C97AE'>DataViz Monthly Challenge</h3>", unsafe_allow_html=True)
-st.write("During my time at Moser, I was presented with the opportunity to participate in our DataViz group's monthly challenge! The goal was to create an interactive resume on either Tableau or Power BI, so I chose Tableau.")
+st.markdown("<h3 style='color: #6C97AE'>DataViz Quarterly Challenge</h3>", unsafe_allow_html=True)
+st.write("During my time at Moser, I was presented with the opportunity to participate in our DataViz group's quarterly challenge! The goal was to create an interactive resume on either Tableau or Power BI, so I chose Tableau.")
 st.write("Someone from HR judged each entry and I won! It was a lot of fun to participate in this challenge. Check my resume out [here](https://public.tableau.com/views/SarahGraddy-InteractiveResume/InteractiveResume?:language=en-US&:display_count=n&:origin=viz_share_link).")
 
 
