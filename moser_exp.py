@@ -61,8 +61,8 @@ with col8:
 # add blog section
 st.markdown("<h3 style='color: #6C97AE'>Moser Blog & Podcast</h3>", unsafe_allow_html=True)
 st.write("I was given the opportunity to contribute to Moser's blog. The post can be found [here](https://www.moserit.com/blog/creating-a-web-app-with-snowflake-and-streamlit).")
-st.write("In addition to the blog post, I was able to participate in a podcast about Streamlit.")
 st.write("Influenced by the Hands-On Essentials courses on Snowflake Academy, I created a tutorial on how to use Streamlit with Snowflake. The tasks included downloading a database from Snowflake's marketplace, connecting a GitHub repository to Streamlit and adding charts from queries.")
+st.write("In addition to the blog post, I was able to participate in a podcast about Streamlit.")
 
 st.markdown("<h3 style='color: #6C97AE'>DataViz Monthly Challenge</h3>", unsafe_allow_html=True)
 st.write("During my time at Moser, I was presented with the opportunity to participate in our DataViz group's monthly challenge! The goal was to create an interactive resume on either Tableau or Power BI, so I chose Tableau.")
