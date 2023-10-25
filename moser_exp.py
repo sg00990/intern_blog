@@ -26,7 +26,7 @@ with col4:
     st.image("image002.jpg")
 with col5:
     st.write("Hello!")
-    st.write("My name is Sarah Graddy and I completed my 8-week internship experience at Moser Consulting in fall 2023.")
+    st.write("My name is Sarah Graddy and I completed my 12-week internship experience at Moser Consulting in fall 2023.")
     st.write("I graduated from Kennesaw State University in May 2023 with a degree in computer science and concentration in data science.")
     st.write("I worked in Data & Analytics where I learned all kinds of tools such as Power BI, Streamlit and Python.")
 
@@ -36,7 +36,7 @@ st.markdown("<h3 style='color: #6C97AE'>Tools I Learned</h3>", unsafe_allow_html
 # add chart showing tools used
 df = pd.DataFrame({
     'Tools': ['Power BI', 'Tableau', 'Snowflake', 'Streamlit', 'JIRA', 'Python', 'SQL', 'Agile Methodology'],
-    'Weeks Spent Learning': [6, 3, 3, 2, 5, 3, 3, 2]
+    'Weeks Spent Learning': [8, 3, 6, 6, 5, 9, 4, 2]
 })
 color_code = ['#6C97AE', '#99C130']
 bar = df.plot(x = "Tools", y = "Weeks Spent Learning", kind="bar", color=color_code)
@@ -55,8 +55,8 @@ with col7:
      st.markdown("<h6 style='text-align: left'>Data Masking in Python</h5>",unsafe_allow_html=True)
      st.write("I created a Python file that can be used to mask sensitive information in data such as names and IDs. It reads in an Excel workbook and utilizes libraries such as Faker and FastDataMask.")
 with col8:
-     st.markdown("<h6 style='text-align: left'>Interactive Resume in Tableau</h5>",unsafe_allow_html=True)
-     st.write("Using Tableau and Google Sheets, I was able to create an interactive resume. I included different charts to display experiences and added clickable links.")
+     st.markdown("<h6 style='text-align: left'>Streamlit Apps</h5>",unsafe_allow_html=True)
+     st.write("Using Streamlit, I was able to create applications for both internal and external use. I learned how to feed data to Snowflake databases, embed Power BI reports and create user-friendly surveys with conditional formatting.")
 
 # add blog section
 st.markdown("<h3 style='color: #6C97AE'>Moser Blog</h3>", unsafe_allow_html=True)
@@ -67,6 +67,7 @@ st.markdown("<h3 style='color: #6C97AE'>Reflection</h3>", unsafe_allow_html=True
 st.write("Overall, I had a fantastic time at Moser Consulting! I learned a LOT in my 8 weeks there and was able to gain experience in both data analysis and data engineering.")
 st.write("My mentor hosted weekly sessions on various topics such as SQL basics and DAX in Power BI. She also answered any questions I had and inspired me to participate in challenges like the Tableau interactive resume project!")
 st.write("Though I was originally interested in data visualization, my manager encouraged me to try my hand at masking data in Python. It was more on the data engineering side of things, but I enjoyed it nonetheless. I am definitely motivated to take up projects like that in the future.")
+st.write("I also had a great time learning Streamlit. It was super easy to use (especially because I know Python) and it was a nice blend of front-end and back-end development.")
 st.write("One of the highlights of my internship was discovering the 'Moser Pets' page on Slack. It brightened my day whenever I saw a cute cat or dog!")
 
 # line break
