@@ -70,7 +70,7 @@ st.write("Someone from HR judged each entry and I won! It was a lot of fun to pa
 
 
 st.markdown("<h3 style='color: #6C97AE'>Reflection</h3>", unsafe_allow_html=True)
-st.write("Overall, I had a fantastic time at Moser Consulting! I learned a LOT in my 8 weeks there and was able to gain experience in both data analysis and data engineering.")
+st.write("Overall, I had a fantastic time at Moser Consulting! I learned a LOT in my 12 weeks there and was able to gain experience in both data analysis and data engineering.")
 st.write("My mentor hosted weekly sessions on various topics such as SQL basics and DAX in Power BI. She also answered any questions I had and inspired me to participate in challenges like the Tableau interactive resume project!")
 st.write("Though I was originally interested in data visualization, my manager encouraged me to try my hand at masking data in Python. It was more on the data engineering side of things, but I enjoyed it nonetheless. I am definitely motivated to take up projects like that in the future.")
 st.write("I also had a great time learning Streamlit. It was super easy to use (especially because I know Python) and it was a nice blend of front-end and back-end development.")
