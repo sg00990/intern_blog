@@ -2,6 +2,8 @@ import streamlit as st
 import pandas as pd
 import matplotlib.pyplot as plt
 
+st.set_page_config(page_title='My Internship at Moser', page_icon='📊')
+
 # set graph size
 plt.rcParams["figure.figsize"] = (10,5)
 
